@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>My CV</title>
 	<link rel="stylesheet" type="text/css" href="style/main.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -32,12 +31,12 @@
 			<div class="block">
 				<h2 class="tittle_h2">Skills:</h2>
 				<ul class="skills">
-					<li class="skills_li"><p class="text">- HTML5</p></li>
-					<li class="skills_li"><p class="text">- CSS3</p></li>
-					<li class="skills_li"><p class="text">- JavaScript</p></li>
-					<li class="skills_li"><p class="text">- Bootstrap</p></li>
-					<li class="skills_li"><p class="text">- REACT.JS.</p></li>
-					<li class="skills_li"><p class="text">- Work with Figma & Photoshop…</p></li>
+					<li class="skills_li"><p class="text">HTML5</p></li>
+					<li class="skills_li"><p class="text">CSS3</p></li>
+					<li class="skills_li"><p class="text">JavaScript</p></li>
+					<li class="skills_li"><p class="text">Bootstrap</p></li>
+					<li class="skills_li"><p class="text">REACT.JS.</p></li>
+					<li class="skills_li"><p class="text">Work with Figma & Photoshop…</p></li>
 				</ul>
 			</div>
 			<div class="block">
