@@ -16,7 +16,7 @@
 	<section class="main">
 		<div class="container">
 			<div class="block">
-				<a href="#" class="link_to_school">rsschool-cv</a>
+				<h2><a href="#" class="link_to_school">rsschool-cv</a></h2>
 			</div>
 		</div>
 		<div class="container">
