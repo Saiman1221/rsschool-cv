@@ -72,11 +72,11 @@
 			<div class="block">
 				<h2 class="tittle_h2">Contacts:</h2>
 				<ul class="contacts">
-					<li class="contacts_li"><p class="text">Phone: +375 (33) 636-12-27</p></li>
-					<li class="contacts_li"><p class="text">E-mail: slavaparybcev2003@gmail.com</p></li>
-					<li class="contacts_li"><p class="text">Instagram: slava.parubcev</p></li>
-					<li class="contacts_li"><p class="text">Telegram: @viacheslav_2003  <span class="text_spec"></p></li>
-					<li class="contacts_li"><p class="text">Discord: Saiman(@Saiman1221)#5894</p></li>
+					<li class="contacts_li">Phone: +375 (33) 636-12-27</li>
+					<li class="contacts_li">E-mail: slavaparybcev2003@gmail.com</li>
+					<li class="contacts_li">Instagram: slava.parubcev</li>
+					<li class="contacts_li">Telegram: @viacheslav_2003</li>
+					<li class="contacts_li">Discord: Saiman(@Saiman1221)#5894</li>
 				</ul>
 			</div>
 		</div>
