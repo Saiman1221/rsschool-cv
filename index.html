@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My CV</title>
+	<link rel="stylesheet" type="text/css" href="style/main.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+</head>
+<body>
+	<header class="header">
+		<div class="container">
+			<ul class="header_ul flex">
+				<li class="header_ul_li"><button class="header_button">Skills</button></li>
+				<li class="header_ul_li"><button class="header_button">Education</button></li>
+				<li class="header_ul_li"><button class="header_button">About me</button></li>
+				<li class="header_ul_li"><button class="header_button">Example code</button></li>
+				<li class="header_ul_li"><button class="header_button">Languages</button></li>
+				<li class="header_ul_li"><button class="header_button">Contacts</button></li>
+			</ul>
+		</div>
+	</header>
+	<section class="main">
+		<div class="container">
+			<div class="first_screen flex flex_first">
+				<div class="block">
+					<h1 class="tittle_h1">Viacheslav Parubtsev</h1>
+					<h3 class="tittle_h3">
+						Man 18 y.o., 19 August 2003 
+					</h3>
+					<h3 class="tittle_h3">
+						Junior Front-End Developer 
+					</h3>
+					<img src="">
+				</div>
+				<div class="block">
+					<h2 class="tittle_h2">Skills:</h2>
+					<ul class="skills">
+						<li class="skills_li">HTML5</li>
+						<li class="skills_li">CSS3</li>
+						<li class="skills_li">JavaScript</li>
+						<li class="skills_li">Bootstrap</li>
+						<li class="skills_li">REACT.JS.</li>
+						<li class="skills_li">Work with Figma & Photoshop…</li>
+					</ul>
+				</div>
+			</div>
+			<div class="info">
+				<div class="block flex education">
+					<div class="education_text">
+						<h2 class="tittle_h2"><strong>Education:</strong></h2>
+						<p><strong>Belarusian State University of Informatics and Radioelectronics:</strong> Faculty of Information Technologies and Management, Information Technologies and Management in Technical Systems
+						</p>
+					</div>
+					<img src="">
+				</div>
+				<div class="block about_me flex">
+					<img src="">
+					<div class="about_me_text">
+						<h2 class="tittle_h2">About me:</h2>
+						<p class="">Hi, I come from the city of Zhodino, Minsk region. I am a 2nd-year student of the Belarusian State University of Informatics and Radioelectronics. I am developing in the field of web technologies, namely Front-End development, because I like to work with code and logic, as well as immediately see the result of my work. In the future, I plan to work as a Fullstack developer. I am ready to work like hell and give myself completely to my studies and work
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="block">
+				<div class="block_code">
+					<h2 class="tittle_h2" style="color: #fff">Example code</h2>
+					<pre class="code">function myFunction() {
+	var input, filter, ul, li, a, i, display;
+	input = document.getElementById("mySearch");
+	filter = input.value.toUpperCase();
+	ul = document.getElementById("myMenu");
+	li = ul.getElementsByClassName("li");
+	for (i = 0; i < li.length; i++) {
+		a = li[i].getElementsByClassName("a")[0];
+		if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+			li[i].style.display = "";
+		} else {
+			li[i].style.display = "none";
+		}
+	}
+}</pre>
+				</div>
+			</div>
+			<div class="block languages">
+				<h2 class="tittle_h2">Languages:</h2>
+				<ul class="languages_text flex">
+					<li class="languages_li">Russian: Native</li>
+					<li class="languages_li">English: Pre-Intermidiate (A2)</li>
+				</ul>
+			</div>
+		</div>
+	</section>
+	<footer class="footer">
+		<div class="container">
+			<ul class="contacts flex">
+					<li class="contacts_li"><p class="text_footer">Phone: +375 (33) 636-12-27</p></li>
+					<li class="contacts_li"><p class="text_footer">E-mail: slavaparybcev2003@gmail.com</p></li>
+					<li class="contacts_li"><p class="text_footer">Telegram: @viacheslav_2003  <span class="text_spec"></p></li>
+				</ul>
+		</div>
+	</footer>
+	<script type="text/javascript"></script>
+</body>
+</html>
