@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="style/main.css">
@@ -13,11 +12,6 @@
 	<header class="header">
 	</header>
 	<section class="main">
-		<div class="container">
-			<div class="block">
-				<h2><a href="#" class="link_to_school">rsschool-cv</a></h2>
-			</div>
-		</div>
 		<div class="container">
 			<div class="block">
 				<h1 class="tittle_h1">Viacheslav Parubtsev</h1>
@@ -83,7 +77,6 @@
 					<li class="contacts_li"><p class="text">Instagram: slava.parubcev</p></li>
 					<li class="contacts_li"><p class="text">Telegram: @viacheslav_2003  <span class="text_spec"></p></li>
 					<li class="contacts_li"><p class="text">Discord: Saiman(@Saiman1221)#5894</p></li>
-
 				</ul>
 			</div>
 		</div>
