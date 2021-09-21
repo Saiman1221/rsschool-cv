@@ -1,0 +1,191 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.flex{
+	display: flex;
+	justify-content: space-between;
+	align-self: center;
+}
+
+.flex_first{
+	align-self: flex-start;
+}
+
+body{}
+
+.container{
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.header{
+	margin-bottom: 50px;
+}
+
+.header_ul{
+	padding: 15px;
+	border-radius: 2px; 
+}
+
+.header_ul_li{
+
+}
+
+.header_button{
+	cursor: pointer;
+	border: none;
+	background-color: #fff;
+	font-size: 24px;
+	transition: 0.3s;
+}
+
+.header_button:hover{
+	color: #171185;
+}
+
+.first_screen{
+	margin-bottom: 50px;
+	width: 900px;
+	margin: 0 auto;
+}
+
+.education{
+	background-color: #de03b5;
+	border-radius: 10px;
+	border: 4px solid black;
+	padding: 30px;
+	margin: 30px 0;
+}
+
+.education_text{
+	width: 50%;
+	color: #fff;
+	font-size: 30px;
+}
+
+.about_me{
+	background: #171185;
+	color: #fff;
+	border: 4px solid black;
+	border-radius: 10px;
+	padding: 30px;
+	margin: 30px 0;
+}
+
+.about_me_text{
+	font-size: 28px;
+	width: 50%;
+}
+
+.info{
+	background-color: black;
+	border-radius: 10px;
+}
+
+.block{
+	
+}
+
+.block_code{
+	width: 90%;
+	background: rgb(23,17,133);
+	background: linear-gradient(140deg, rgba(23,17,133,1) 0%, rgba(222,3,181,1) 80%);
+	margin: 0 auto;
+	padding: 10px;
+	border-radius: 10px;
+	border: 3px solid black; 
+}
+
+.code{
+	font-size: 15px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	line-height: 20px;
+	color: white;
+}
+
+.tittle_h1{
+	font-size: 50px;
+	margin-bottom: 20px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+}
+
+.tittle_h2{
+	font-size: 30px;
+	margin-bottom: 10px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+}
+
+.tittle_h3{
+	font-size: 20px;
+	margin-bottom: 5px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+}
+
+.text{
+	font-family: 'Merriweather', serif;
+	width: 80%;
+	line-height: 20px;
+}
+
+li{
+	list-style-type: none;
+	margin: 5px 0;
+}
+
+.link_to_school{
+	font-size: 50px;
+	margin-bottom: 20px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	color: #777;
+}
+
+.skills_li{
+	border: 3px solid black;
+	border-radius: 4px;
+	padding: 5px;
+	background-color: white;
+	transition: 0.3s;
+	cursor: pointer;
+}
+
+.skills_li:hover{
+	background-color: black;
+	color: white;
+}
+
+.languages{
+	margin: 50px 0;
+	background-color: #fff;
+	border: 3px solid #750a9c;
+	padding: 20px;
+	border-radius: 10px;
+	color: #750a9c;
+	transition: 0.3s;
+}
+
+.languages:hover{
+	background-color: black;
+	color: #fff;
+}
+
+.languages_li{
+	font-size: 20px;
+	margin-bottom: 20px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+}
+
+.text_footer{
+	color: #222;
+	font-size: 18px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+}
