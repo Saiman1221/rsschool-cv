@@ -1,0 +1,507 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.display_flex{
+	display: flex;
+	justify-content: space-between;
+	align-self: center;
+	align-items: center;
+}
+
+.container{
+	width: 1440px;
+	margin: 0 auto;
+}
+
+.header{
+	background-color: #030303;
+}
+
+.header_logo{
+	width: 199px;
+	height: 33px;
+}
+
+.header_menu{
+	width: 775px;
+	height: 150px;
+	list-style: none;
+	color: #fff;
+}
+
+.header_menu_list{
+
+}
+
+.header_menu_list_btn{
+	background: none;
+	cursor: pointer;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 200;
+	font-size: 22px;
+	line-height: 26px;
+	letter-spacing: 2px;
+	color: #ddd;
+	border: 1px solid #000000;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.main{
+
+}
+
+.section_welcome{
+	background: #030303;
+	width: 100%;
+	margin-bottom: 75px;
+}
+
+.section_welcome_container{
+	position: relative;
+}
+
+.welcome_pic{
+	text-align: right;
+}
+
+.welcome_pic_image{
+	width: 1000px;
+	height: 750px;
+}
+
+.welcome_text{
+	position: absolute;
+	left: 0;
+	top: 150px;
+}
+
+.welcome_text_h1{
+	width: 600px;
+	font-family: Forum;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 80px;
+	line-height: 90px;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	margin-bottom: 25px;
+}
+
+.welcome_text_p{
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 28px;
+	line-height: 33px;
+	letter-spacing: 2px;
+	color: #FFFFFF;
+	margin-bottom: 75px;
+}
+
+.welcome_btn{
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 22px;
+	line-height: 26px;
+	align-items: center;
+	text-align: center;
+	letter-spacing: 2px;
+	color: #FFFFFF;
+	text-decoration: none;
+	background: #710707;
+	border-radius: 10px;
+	padding: 24px 64px;
+	transition: 0.3s;
+}
+
+.welcome_btn:hover{
+	background: #9D8665;
+}
+
+.section_virtual_tour{
+
+}
+
+.virtual_tour_h2{
+	font-family: Forum;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 80px;
+	line-height: 90px;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	color: #9D8665;
+	margin-bottom: 25px;
+}
+
+.virtual_tour_hr{
+	width: 100%;
+	height: 3px;
+	background: #710707;
+	border-radius: 0px;
+	margin-bottom: 75px;
+}
+
+.virtual_tour_cards{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.virtual_tour_card{
+	min-width: 424px;
+	margin-bottom: 75px;
+}
+
+.virtual_tour_card_img{
+
+}
+
+.virtual_tour_card_h3{
+	font-family: Forum;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 32px;
+	line-height: 35px;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	color: #000000;
+	margin-bottom: 10px;
+	margin-top: 25px;
+}
+
+.virtual_tour_card_hr{
+	background: #710707;
+	border-radius: 0px;
+	width: 300px;
+	height: 3px;
+	margin-bottom: 10px;
+}
+
+.virtual_tour_card_p1{
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 200;
+	font-size: 22px;
+	line-height: 26px;
+	color: #000000;
+	margin-bottom: 10px;
+}
+
+.virtual_tour_card_p2{
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 200;
+	font-size: 18px;
+	line-height: 21px;
+	color: #000000;
+}
+
+.section_picture_explore{
+	background-color: #030303;
+	padding: 75px 0;
+	margin-bottom: 15px;
+}
+
+.picture_explore_display{
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+.picture_explore_text{
+	width: 660px;
+}
+
+.picture_explore_h2{
+	font-family: Forum;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 80px;
+	line-height: 90px;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+
+.picture_explore_hr{
+	background: #710707;
+	border-radius: 0px;
+	width: 100%;
+	height: 3px;
+	margin-bottom: 75px;
+	margin-top: 25px;
+}
+
+.picture_explore_p{
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 22px;
+	line-height: 38px;
+	color: #FFFFFF;
+	margin-bottom: 25px;
+	width: 610px;
+}
+
+.picture_explore_img{
+	position: relative;
+}
+
+.picture_explore_img_abs{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.picture_explore_img1_abs{
+	position: absolute;
+	top: 0;
+	left: 420px;
+}
+
+.section_video_journey{
+	margin-top: 75px;
+}
+
+.video_journey_display{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 75px;
+}
+
+.video_journey_h2{
+	font-family: Forum;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 80px;
+	line-height: 90px;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	color: #9D8665;
+	width: 625px;
+}
+
+.video_journey_p{
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 22px;
+	line-height: 38px;
+	display: flex;
+	align-items: center;
+	color: #000000;
+	width: 720px;
+}
+
+.video_journey_video{
+	width: 100%;
+	height: 735px;
+}
+
+.section_art_gallery{
+	padding-top: 75px;
+	background-color: #030303;
+	position: relative;
+}
+
+.art_gallery_h2{
+	font-family: Forum;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 80px;
+	line-height: 90px;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	padding-bottom: 75px;
+}
+
+.art_gallery_display{
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+
+.art_gallery_column{
+	display: flex;
+	flex-direction: column-reverse;
+}
+
+.art_gallery_img{
+	margin: 12px 0;
+}
+
+.art_gallery_gradient{
+	background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 360px;
+}
+
+.section_buy_tickets{
+	margin-bottom: 75px;
+}
+
+.buy_tickets_h2{
+	font-family: Forum;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 80px;
+	line-height: 90px;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	color: #9D8665;
+	margin-top: 75px;
+	margin-bottom: 25px;
+}
+
+.buy_tickets_hr{
+	background: #710707;
+	border-radius: 0px;
+	width: 100%;
+	height: 3px;
+	margin-bottom: 75px;
+}
+
+.buy_tickets_display{
+	display: flex;
+	justify-content: space-between;
+	align-self: flex-start;
+}
+
+.buy_tickets_text{
+	width: 45%;
+}
+
+.buy_tickets_text_display{
+	display: flex;
+	justify-content: space-between;
+	align-self: flex-start;
+}
+
+.buy_tickets_changes{
+	display: flex;
+	border: 3px solid #000000;
+	box-sizing: border-box;
+	border-radius: 0px;
+	width: 150px;
+	height: 50px;
+	align-self: center;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+.buy_tickets_text_h3{
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 28px;
+	line-height: 33px;
+	color: #000000;
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+.buy_tickets_text_p{
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 22px;
+	line-height: 26px;
+	color: #000000;
+	margin-bottom: 15px;
+}
+
+.buy_tickets_changes_btn{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	border: none;
+	background-color: #fff;
+	cursor: pointer;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 32px;
+	line-height: 37px;
+	text-align: center;
+	color: #000000;
+}
+
+.section_contacts{
+	margin-bottom: 75px;
+}
+
+.contacts_h2{
+	font-family: Forum;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 80px;
+	line-height: 90px;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	color: #9D8665;
+	margin-bottom: 25px;
+}
+
+.contacts_hr{
+	background: #710707;
+	border-radius: 0px;
+	height: 3px;
+	margin-bottom: 75px;
+}
+
+.contacts_display{
+	display: flex;
+	justify-content: space-between;
+}
+
+.contacts_display_text{
+	
+}
+
+.contacts_display_text_h3{
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 28px;
+	line-height: 33px;
+	color: #000000;
+	width: 227px;
+}
+
+.footer{
+	background-color: #030303;
+	padding: 75px 0 50px 0;
+}
+
+.footer_hr{
+	background: #666666;
+	height: 3px;
+	width: 100%;
+}
+
+.footer_ul{
+	display: flex;
+	justify-content: space-between;
+	padding-top: 50px;
+}
+
+.footer_ul_li{
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 200;
+	font-size: 22px;
+	line-height: 22px;
+	letter-spacing: 2px;
+	color: #FFFFFF;
+}
